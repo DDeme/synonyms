@@ -1,0 +1,28 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`test of make ditionary should return sample prepared dictionary with relations 1`] = `
+Object {
+  "apple": Array [
+    "banana",
+  ],
+  "banana": Array [
+    "apple",
+  ],
+  "big": Array [
+    "large",
+  ],
+  "huge": Array [
+    "large",
+  ],
+  "large": Array [
+    "huge",
+    "big",
+  ],
+  "little": Array [
+    "small",
+  ],
+  "small": Array [
+    "little",
+  ],
+}
+`;

@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`test of get results function sample integration test for getResults 1`] = `
+Array [
+  "synonyms",
+  "synonyms",
+  "synonyms",
+  "different",
+  "different",
+  "synonyms",
+]
+`;

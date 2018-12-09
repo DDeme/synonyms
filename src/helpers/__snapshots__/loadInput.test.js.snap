@@ -1,0 +1,35 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test of load input should return parsed object 1`] = `
+Array [
+  Object {
+    "dictionary": Array [
+      "    big large",
+      "    large huge",
+      "    small little",
+      "    apple banana",
+    ],
+    "queries": Array [
+      "    same same",
+      "    big huge",
+      "    huge big",
+      "    apple peach",
+      "    big tall",
+      "    peach PEACH",
+    ],
+  },
+  Object {
+    "dictionary": Array [
+      "    wood FORest",
+      "    meadoW PrAirIe",
+      "    WOOD Lumber",
+      "    lumber forest",
+      "    lumber forest",
+    ],
+    "queries": Array [
+      "    wood LUMBER",
+      "    mEADOw fire",
+    ],
+  },
+]
+`;
